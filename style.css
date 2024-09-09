@@ -1,0 +1,675 @@
+*{
+    margin: 0px;
+}
+
+.home-navbar{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 35px;
+    width: 300px;
+}
+
+.section{
+    display: flex;
+}
+
+
+
+.section-1{
+    background-image: url(workout-img.jpg);
+    background-size: cover;
+    height: 755px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-in, box-shadow 1s ease ;
+    
+}
+
+.section-1::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%) ;
+    transition: opacity 1s ease-in; 
+
+}
+
+.section-1:hover  {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    filter: brightness(70%) ;
+
+    
+    
+} 
+
+
+
+
+
+.section-2{
+    background-image: url(day-1.jpg);
+    background-size: cover;
+    height: 755px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-3{
+    background-image: url(goal.jpg);
+    background-size: cover;
+    height: 755px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.workout-t{
+    background-image: url(w-title.png);
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.yourday{
+    background-image: url(d-title.png);
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yourgoal{
+    background-image: url(g-title.png);
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.home-baground{
+    background-color: rgb(209, 209, 209);
+    height: 700px;
+}
+
+.start-b{
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0px;
+}
+
+.start-t{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**workout**/
+
+
+.navbar-workout{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Set the navbar to fixed position */
+     /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+}
+
+.w-logo{
+    background-image: url(w-title.png);
+    background-size: cover;
+    height: 23px;
+    width: 170px;
+    margin-top: 6px;
+}
+
+.login-t{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 750px;
+    font-family:system-ui, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+}
+
+.baground-work{
+    background-image: url(workout-bag.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    
+}
+
+.sections{
+    display: flex;
+    /* margin-top: 85px; */
+}
+
+.sports{
+    border: 2px solid  white;
+    border-radius: 30px;
+    height: 350px;
+    width: 310px;
+    margin-left: 52px;
+    margin-top: 160px;
+
+}
+
+.workout-1{
+    border: 2px solid  white;
+    border-radius: 30px;
+    height: 350px;
+    width: 310px;
+    margin-left: 52px;
+    margin-top: 160px;
+    
+
+}
+
+.yoga{
+    border: 2px solid  white;
+    border-radius: 30px;
+    height: 350px;
+    width: 310px;
+    margin-left: 52px;
+    margin-top: 160px;
+}
+
+.dance{
+    border: 2px solid  white;
+    border-radius: 30px;
+    height: 350px;
+    width: 310px;
+    margin-left: 52px;
+    margin-top: 160px;
+}
+
+.w-img{
+    background-image: url(workout.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 310px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.w-tittle{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.s-img{
+    background-image: url(sports.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 310px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.s-tittle{
+    color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d-img{
+    background-image: url(dance.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 310px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.d-tittle{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.y-img{
+    background-image: url(yoga.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 310px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.y-tittle{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 110px;
+    margin-top: 20px;
+
+}
+
+.quot-bag{
+    background-color: rgba(37, 34, 34, 0.819);
+    height: 60px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.limit-quot{
+    background-image: url(limit-q.png);
+    background-size: cover;
+    height:60px;
+    width: 500px;
+    
+}
+
+.baground-about{
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    display: flex;
+}
+
+.about-img3{
+    background-image: url(bag-about.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 650px;
+}
+
+.h1{
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 704px;
+
+}
+
+.weight-info{
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+
+.wei-in{
+    color: aliceblue;
+    margin-top: 159px;
+    width: 60%;
+}
+
+.about-info{
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    width: 900px;
+}
+
+.hed-1{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.info-1{
+   color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1rem;
+   width: 90%;
+   margin-left:30px;
+   margin-top: 13px;
+}
+
+.hed-2{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+.info-2{
+   color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1rem;
+   width: 60%;
+   margin-left:30px;
+   margin-top: 13px;
+
+}
+
+.hed-3{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.info-3{
+   color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1rem;
+   width: 60%;
+   margin-left:30px;
+   margin-top: 13px;
+
+}
+
+.hed-4{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.info-4{
+    color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1rem;
+   width: 60%;
+   margin-left:30px;
+   margin-top: 13px;
+
+}
+
+
+.schedule{
+    background-color: black;
+    height: 700px;
+}
+
+.s-tittle{
+    margin-top: 80px;
+
+}
+
+.sch-p{
+    display: flex;
+}
+
+
+.schedule-week{
+    background-image: url(schedule.png);
+    background-size: cover;
+    height: 450px;
+    width: 1000px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.trainer{
+    background-image: url(login-baground.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.t-heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    margin: 65px;
+    display: flex;
+}
+
+.trainers-id{
+    display: flex;
+    margin-right: 250px;
+    
+}
+
+
+.trainer-1{
+    background-color: aliceblue;
+    background-size: cover;
+    height: 500px;
+    width: 340px;
+    margin-top: 120px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+
+.nishika{
+    background-image: url(nishika.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 340px;
+    border-radius: 30px;
+}
+
+.pankaj{
+    background-image: url(pankaj.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 340px;
+    border-radius: 30px;
+}
+
+.Yatharth{
+    background-image: url(Yatharth.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 340px;
+    border-radius: 30px;
+}
+
+.name-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    margin-left: 60px;
+}
+
+.fitnes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**login**/
+
+.login-bar{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-login{
+    background-image: url(login-ti.png);
+    background-size: cover;
+    height: 25px;
+    width: 100px;
+    margin-top: 25px;
+}
+
+
+
+.login-bag2{
+    background-image: url(login-baground.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+}
+
+.login-section{
+    background-color: rgb(0, 0, 0);
+    height: 550px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 40px;
+}
+
+.login-image{
+    background-image: url(bag-about.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 400px;
+    border-radius: 40px;
+}
+
+.login-info{
+    margin-top: 34px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.name{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name-s{
+    width: 350px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.contact{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
