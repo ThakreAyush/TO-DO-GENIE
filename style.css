@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+}
+
+.home-navbar{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 35px;
+    width: 300px;
+}
+
+.section{
+    display: flex;
+}
+
+
+
+.section-1{
+    background-image: url(workout-img.jpg);
+    background-size: cover;
+    height: 755px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-in, box-shadow 1s ease ;
+    
+}
+
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+
+
+.section-2{
+    background-image: url(day-1.jpg);
+    background-size: cover;
+    height: 755px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-3{
+    background-image: url(goal.jpg);
+    background-size: cover;
+    height: 755px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.workout-t{
+    background-image: url(w-title.png);
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.yourday{
+    background-image: url(d-title.png);
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yourgoal{
+    background-image: url(g-title.png);
+    background-size: cover;
+    height: 60px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.home-baground{
+    background-color: rgb(209, 209, 209);
+    height: 700px;
+}
+
+.start-b{
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 0px;
+}
+
+.start-t{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* about home page */
+
+.home-baground{
+    display:flex ;
+}
+
+
+
+.aboutus{
+    margin-top: 60px;
+    margin-left: 30px;
+    
+}
+
+.about-heading{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-discription{
+    font-size: 0.9rem;
+    width: 90%;
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.functions{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 0.6rem;
+    width: 80%;
+    margin-top: 40px;
+
+}
+
+
+.workout-f{
+    margin-right: 270px;
+}
+
+.aboutw-li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
